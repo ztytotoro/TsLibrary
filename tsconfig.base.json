@@ -8,9 +8,18 @@
       "dom",
       "es2018"
     ],
+    "sourceMap": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
     "moduleResolution": "node",
     "importHelpers": true,
     "declaration": true,
-    "esModuleInterop": true
-  }
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": [
+    "demo",
+    "lib"
+  ]
 }
