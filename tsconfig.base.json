@@ -17,7 +17,8 @@
         "declarationDir": "./lib",
         "esModuleInterop": true,
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true,
+        "jsx": "preserve",
     },
     "exclude": [
         "demo",
